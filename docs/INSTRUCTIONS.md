@@ -1,12 +1,12 @@
 # I Love Web
 
-Learning journal en digital garden... jouw  persoonlijke i-love-web-site is een verzameling zaken die met elkaar jouw frontenderschap tentoon stellen. Het bestaat uit een [learning journal](#learning-journal) welke je routinematig, het liefst elke dag, bijhoudt. Daarnaast is er de [digital garden](#digital-garden), een site waarbij de vorm compleet vrij staat.
+Learning Journal en Digital Garden... jouw persoonlijke i-love-web-site is een verzameling zaken, die met elkaar jouw frontenderschap tentoon stellen. Het bestaat uit een [Learning Journal](#learning-journal) die je routinematig, het liefst elke dag, bijhoudt. Daarnaast is er de [Digital Garden](#digital-garden), een site waarbij de vorm compleet vrij staat.
 
-**20% regel** Bij sommige bedrijven mag je 20% van je tijd besteden aan je eigen projecten. Bij FDND reserveer je 20% van je tijd voor het bijhouden van je learning journal en het werken aan jouw Digital Garden.
+**20% regel**: Bij sommige bedrijven mag je 20% van je tijd besteden aan je eigen projecten. Bij FDND reserveer je 20% van je tijd voor het bijhouden van je Learning Journal en het tuinieren in jouw Digital Garden.
 
 Fork en clone deze leertaak en maak 'm van jezelf.
 
-## Learning journal
+## Learning Journal
 
 Houd je leerproces routinematig (chronologisch) bij.
 Noteer aantekeningen, interessante links en bronnen die je niet wil vergeten waar je later nog naar wil kijken. 
