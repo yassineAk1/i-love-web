@@ -11,6 +11,7 @@ Fork en clone deze leertaak en maak 'm van jezelf.
 Houd je leerproces routinematig (chronologisch) bij.
 Noteer aantekeningen, interessante links en bronnen die je niet wil vergeten waar je later nog naar wil kijken. 
 Voeg je sketchnotes en aantekeningen van de We Love Web presentaties en andere lezingen toe. 
+Dit is ook de plek waar je je dagelijkse checkout doet.
 
 ## Digital Garden
 
@@ -21,7 +22,7 @@ NB: Je kunt een eigen domeinnaam koppelen aan jouw etalage. Vraag Justus om tips
 
 ## Doel van deze opdracht
 
-Je leert aantekeningen bijhouden en gestructureerd studeren. Tijdens de Retrospect ga je regelmatig terugkijken naar wat je allemaal hebt gedaan en geleerd. Daarvoor heb je deze I Love Web deeltaak nodig als bewijslast.
+Je leert aantekeningen bijhouden en gestructureerd studeren. Tijdens checkouts en retrospects ga je regelmatig terugkijken naar wat je allemaal hebt gedaan en geleerd. Daarvoor heb je deze I Love Web deeltaak nodig als bewijslast.
 
 ### Semester 1
 
