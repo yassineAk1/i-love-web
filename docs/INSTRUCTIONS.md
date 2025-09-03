@@ -1,6 +1,6 @@
 # I Love Web
 
-Jouw persoonlijke i-love-web-site is een verzameling zaken, die met elkaar jouw frontenderschap tentoon stellen. Het bestaat uit een Learning Journal die je routinematig, het liefst elke dag, bijhoudt. Daarnaast is er de Digital Garden, een site waarbij de vorm compleet vrij staat.
+Jouw persoonlijke i-love-web-site is een verzameling zaken, die met elkaar jouw frontenderschap tentoon stellen. Het bestaat uit een Learning Journal die je routinematig, het liefst elke dag, bijhoudt. Daarnaast is er de Digital Garden, een site waarbij de vorm compleet vrij staat. Aan het eind van je opleiding is dit jouw eigen, persoonlijke site én portfolio.
 
 **20% regel**: Bij sommige bedrijven mag je 20% van je tijd besteden aan je eigen projecten. Bij FDND reserveer je 20% van je tijd voor het bijhouden van je Learning Journal en het tuinieren in jouw Digital Garden.
 
@@ -15,7 +15,7 @@ Dit is ook de plek waar je je dagelijkse checkout doet.
 
 ## Digital Garden
 
-Maak jouw eigen vette website, een creatief weblog, een link dump, of een playground... Hiermee ga je experimenteren en nieuwe technieken uitproberen. Niks moet, alles mag.
+Maak jouw eigen vette website, een creatief weblog, je project portfolio, een link dump, en/of een playground... Hiermee ga je experimenteren en nieuwe technieken uitproberen. Niks moet, alles mag.
 
 NB: Je kunt een eigen domeinnaam koppelen aan jouw etalage. Vraag Justus om tips of hulp als je dit wilt doen.
 
