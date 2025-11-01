@@ -1,13 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
+    <style>
+dialog::backdrop {
+  background: rgba(21, 107, 213, 0.5);
+}
+</style>
     <h1>UX van HTML</h1>
     <h2 id="links">Links</h2>
-    <a href="ux.html">UX van HTML</a>
+    <a href="ux.html">UX van HTML</a> <br>
+    <a href="logo.png" download> logo</a> <br>
+    <a href="logo.png" target="_blank"> blank</a> <br>
+    <button>knop</button> <br>
+    <a href="#">link</a> <br>
+    <a href="#">link</a> <br>
+    <a href="#">link</a> <br>
+    <a href="#links">link</a>
+
+    <h2 id="afbeeldingen">Afbeeldingen</h2>
+    <a href="ux.html"><img width="200" height="100" alt="UX van HTML"></a> <br>
+    <a href="ux.html"><img alt="UX van HTML">UX van HTML</a>
+     
+
+    <h2 id="labels">Labels</h2>
+
+<fieldset>
+  <legend>Docenten</legend>
+  <ul>
+    <li><label><input type="checkbox"> Cyd</label></li>
+    <li><label><input type="checkbox"> Dorien</label></li>
+    <li><label><input type="checkbox"> Gwen</label></li>
+    <li><label><input type="checkbox"> Jad</label></li>
+    <li><label><input type="checkbox"> Joost</label></li>
+    <li><label><input type="checkbox"> Justus</label></li>
+    <li><label><input type="checkbox"> Koop</label></li>
+    <li><label><input type="checkbox"> Krijn</label></li>
+    <li><label><input type="checkbox"> Sanne</label></li>
+    <li><label><input type="checkbox"> Suus</label></li>
+  </ul>
+</fieldset>
+
+<fieldset>
+  <legend>Adresgegevens</legend>
+  <p><input type="text"></p>
+  <p><input type="text"></p>
+  <p><input type="text"></p>
+  <p><input type="text"></p>
+</fieldset>
+
+<fieldset>
+  <legend>Adresgegevens</legend>
+  <p>Straat: <input type="text"></p>
+  <p>Huisnummer: <input type="text"></p>
+  <p>Postcode: <input type="text"></p>
+  <p>Plaats: <input type="text"></p>
+</fieldset>
+
+<fieldset>
+  <legend>Adresgegevens</legend>
+  <p><label>Straat: <input type="text"></label></p>
+  <p><label>Huisnummer: <input type="text"></label></p>
+  <p><label>Postcode: <input type="text"></label></p>
+  <p><label>Plaats: <input type="text"></label></p>
+</fieldset>
+
+<details>
+  <summary>Meer info</summary>
+  <p>Deze informatie krijg je pas later te zien.</p>
+  <p>Kan handig zijn.</p>
+</details>
+
+<details name="faq">
+  <summary>Moet ik al kunnen coderen?</summary>
+  <p>Nee, je hebt helemaal geen voorkennis nodig om te beginnen aan deze opleiding, we kunnen je alles leren! Als je wel al voorkennis hebt, is dat alleen maar goed, dan kunnen we je helpen je skills te verbeteren en te verdiepen in de stof.</p>
+</details>
+<details name="faq">
+  <summary>Wat is frontend development?</summary>
+  <p>Een frontend developer ontwerpt en bouwt websites in HTML, CSS en JavaScript. Deze frontend talen leer je bij ons, je hebt dus geen voorkennis nodig.</p>
+</details>
+<details name="faq">
+  <summary>Hoe werkt deze frontend developer opleiding?</summary>
+  <p>Je richt je tijdens deze tweejarige studie op webdesign, visual interface design en frontend development. Vanaf het begin van de opleiding werk je aan actuele opdrachten van échte opdrachtgevers, en leer je samenwerken in multidisciplinaire teams.</p>
+</details>
+
+<button popovertarget="popup">Open iets</button>
+
+<dialog popover id="popup">
+  <p>Dit staat in een popup/overlay/popover.</p>
+  <p>Leuk he.</p>
+  <button popovertarget="popup" popovertargetaction="hide">Sluit dit ding weer</button>
+</dialog>
 </body>
+
 </html>

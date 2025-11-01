@@ -47,3 +47,28 @@ code {
   border-radius: 4px;
   font-family: monospace;
 }
+
+.colortest{
+  color: #2a5d9f;
+}
+
+.colortest ul{
+  color: aqua;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  background-color: #0078d7;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 1rem;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  bottom: 1;
+}
+.button:hover {
+  background-color: #005fa3;
+}
