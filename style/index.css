@@ -73,7 +73,6 @@ code {
   background-color: #005fa3;
 }
 
-<<<<<<< HEAD
 .weloveweb-main{
   display: flex;
   flex-direction: column;
@@ -97,7 +96,6 @@ article{
   }
 }
 
-=======
 
 main {
   max-width: 900px;
@@ -145,4 +143,3 @@ main p strong {
 article p {
   margin: 0.75rem 0;
 }
->>>>>>> 4c296c204371cc360f897c6768d2ac4efa5bf82b
