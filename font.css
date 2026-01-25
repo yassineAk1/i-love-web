@@ -1,0 +1,19 @@
+.first {
+color: rgb(52, 165, 42);
+line-height: 190%;
+  width: 500px;}
+
+.second {
+color: rgb(42, 44, 165);
+line-height: 150%;
+  width: 30em;}
+
+.third {
+color: brown;
+line-height: 190%;
+  width: 80vw;}
+
+.fourth {
+color: rgb(159, 165, 42);
+line-height: 190%;
+  width: 30cm;}

@@ -72,3 +72,27 @@ code {
 .button:hover {
   background-color: #005fa3;
 }
+
+.weloveweb-main{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+article{
+  border: 2px solid blue;
+  border-radius: 20px;
+  width: 100%;
+
+  .image-wrapper{
+    img{
+      height: auto;
+      width: 8rem;
+
+      &:hover{
+        transform: scale(2);
+        transition: all 0.6s;
+      }
+    }
+  }
+}
+
