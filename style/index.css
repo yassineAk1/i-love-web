@@ -1,13 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Nunito:wght@400;600;700&display=swap');
 
 
+:root {
+  color-scheme: light dark;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 #theme-toggle {
   position: fixed;
   top: 1rem;
   right: 1rem;
   z-index: 100;
-  background: white;
-  border: 2px solid #ccc;
+  background: light-dark(rgb(231, 232, 207), #444);
+  color: light-dark(#222, #f0f0f0);
+  border: 2px solid light-dark(#ccc, #666);
   border-radius: 2rem;
   padding: 0.3rem 0.8rem;
   font-size: 0.9rem;
@@ -17,64 +30,26 @@
 
 body {
   font-family: 'Nunito', system-ui, sans-serif;
-  background: #f8f8f8;
-  margin: 2rem;
+  background: light-dark(#f8f8f8, #2e562a);
+  color: light-dark(#222, #f0f0f0);
   line-height: 1.6;
-
-  @media (prefers-color-scheme: dark) {
-    background: #2e562a;
-  }
-}
-
-body.dark {
-  background: #2e562a;
-}
-
-body.dark details.sprint {
-  background: #6c6c6c;
-}
-
-body.dark details.sprint > summary {
-  background: #38557e;
-  color: rgb(0, 234, 255);
-}
-
-body.light {
-  background: #f8f8f8;
-}
-
-body.light details.sprint {
-  background: white;
-}
-
-body.light details.sprint > summary {
-  background: #a1f699;
-  color: rgb(144, 112, 33);
-}
-
-body.light details.sprint > summary:hover {
-  background: #6f9cd7;
-  color: white;
+  padding: 2rem;
 }
 
 h1 {
   font-family: 'Lora', serif;
   text-align: center;
   margin-bottom: 2rem;
-  color: #222;
+  color: light-dark(#222, #f0f0f0);
 }
 
 details.sprint {
-  background: white;
+  background: light-dark(#ffffff, #6c6c6c);
   margin-bottom: 1.25rem;
   border-radius: 14px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: box-shadow 0.2s;
-
-    @media (prefers-color-scheme: dark) {
-    background: #6c6c6c;
-  }
 }
 
 details.sprint[open] {
@@ -86,8 +61,8 @@ details.sprint>summary {
   font-family: 'Lora', serif;
   font-weight: 700;
   font-size: 1.1rem;
-  color: rgb(144, 112, 33);
-  background: #a1f699;
+  background: light-dark(#a1f699, #38557e);
+  color: light-dark(rgb(144, 112, 33), rgb(0, 234, 255));
   cursor: pointer;
   list-style: none;
   display: flex;
@@ -95,12 +70,6 @@ details.sprint>summary {
   gap: 0.6rem;
   user-select: none;
   transition: background 0.15s;
-
-    @media (prefers-color-scheme: dark) {
-    background: #38557e;
-      color: rgb(0, 234, 255);
-
-  }
 }
 
 details.sprint>summary::before {
@@ -129,24 +98,24 @@ details.sprint>details:last-child {
 
 /* Day-level accordion */
 details:not(.sprint) {
-  background: #e7ddff;
+  background: light-dark(#e7ddff, #3a3550);
   margin-bottom: 0.5rem;
   border-radius: 10px;
-  border: 1px solid #e8e8e8;
+  border: 1px solid light-dark(#e8e8e8, #555);
   overflow: hidden;
   transition: box-shadow 0.2s;
 }
 
 details:not(.sprint)[open] {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  background: #e7ddff;
+  background: light-dark(#e7ddff, #3a3550);
 }
 
 details:not(.sprint)>summary {
   padding: 0.75rem 1.25rem;
   font-weight: 600;
   font-size: 1rem;
-  color: #2a5d9f;
+  color: light-dark(#2a5d9f, #b9c9e8);
   cursor: pointer;
   list-style: none;
   display: flex;
@@ -169,12 +138,12 @@ details:not(.sprint)[open]>summary::before {
 }
 
 details:not(.sprint)[open]>summary {
-  border-bottom-color: #e8e8e8;
-  background: #e7ddff;
+  border-bottom-color: light-dark(#e8e8e8, #555);
+  background: light-dark(#e7ddff, #3a3550);
 }
 
 details:not(.sprint)>summary:hover {
-  background: #b0f1ff;
+  background: light-dark(#b0f1ff, #4a5566);
 }
 
 details:not(.sprint)>*:not(summary) {
@@ -187,11 +156,12 @@ ol {
 }
 
 strong {
-  color: #444;
+  color: light-dark(#444, #cfcfcf);
 }
 
 code {
-  background: #f0f0f0;
+  background: light-dark(#f0f0f0, #444);
+  color: light-dark(#222, #f0f0f0);
   padding: 0.1rem 0.3rem;
   border-radius: 4px;
   font-family: monospace;
@@ -231,7 +201,7 @@ code {
 
 .weloveweb-main .subtitle {
   text-align: center;
-  color: #888;
+  color: light-dark(#888, #b5b5b5);
   margin-top: -1.5rem;
   margin-bottom: 2.5rem;
   font-style: italic;
@@ -241,7 +211,7 @@ code {
   margin: -0.75rem 0 0.75rem;
   font-size: 0.85rem;
   font-style: italic;
-  color: rgb(144, 112, 33);
+  color: light-dark(rgb(144, 112, 33), rgb(214, 184, 90));
 }
 
 /* Lightbox */
@@ -289,10 +259,10 @@ code {
 blockquote {
   margin: 1rem 0;
   padding: 0.75rem 1.25rem;
-  background: #f5f8ff;
+  background: light-dark(#f5f8ff, #3a3a3a);
   border-left: 4px solid #a1f699;
   border-radius: 0 8px 8px 0;
-  color: #555;
+  color: light-dark(#555, #cfcfcf);
   font-style: italic;
 }
 
@@ -302,7 +272,7 @@ main {
 }
 
 article {
-  background: white;
+  background: light-dark(white, #3a3a3a);
   padding: 1.5rem;
   margin-bottom: 1.25rem;
   border-radius: 14px;
@@ -334,8 +304,8 @@ article h2 {
   font-family: 'Lora', serif;
   font-size: 1.1rem;
   font-weight: 700;
-  color: rgb(144, 112, 33);
-  background: #a1f699;
+  color: light-dark(rgb(144, 112, 33), rgb(0, 234, 255));
+  background: light-dark(#a1f699, #38557e);
   margin: -1.5rem -1.5rem 1rem;
   padding: 1rem 1.5rem;
   border-radius: 14px 14px 0 0;
@@ -343,7 +313,7 @@ article h2 {
 
 article h3 {
   margin-top: 1.25rem;
-  color: #444;
+  color: light-dark(#444, #cfcfcf);
   padding-left: 0.5rem;
 }
 
@@ -362,9 +332,9 @@ article p {
 header h1 {
   text-align: center;
   margin-bottom: 2rem;
-  color: #222;
+  color: light-dark(#222, #f0f0f0);
 }
 
 main p strong {
-  color: #2a5d9f;
+  color: light-dark(#2a5d9f, #b9c9e8);
 }

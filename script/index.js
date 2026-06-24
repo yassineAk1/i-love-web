@@ -1,9 +1,22 @@
 const btn = document.getElementById('theme-toggle');
-let isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+const root = document.documentElement;
 
-btn.addEventListener('click', () => {
-  isDark = !isDark;
-  document.body.classList.toggle('dark', isDark);
-  document.body.classList.toggle('light', !isDark);
-  btn.textContent = isDark ? '☀️ Light mode' : '🌙 Dark mode';
+let dark = matchMedia('(prefers-color-scheme: dark)').matches;
+
+if (dark) {
+  btn.textContent = '☀️ Light mode';
+} else {
+  btn.textContent = '🌙 Dark mode';
+}
+
+btn.addEventListener('click', function () {
+  dark = !dark;
+
+  if (dark) {
+    root.style.colorScheme = 'dark';
+    btn.textContent = '☀️ Light mode';
+  } else {
+    root.style.colorScheme = 'light';
+    btn.textContent = '🌙 Dark mode';
+  }
 });
