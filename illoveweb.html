@@ -293,6 +293,102 @@
       </ul>
     </article>
 
+    <article>
+      <h2>11-09-2026 Digital Gardening</h2>
+      <p>Dit college ging over het idee van een "digital garden": een eigen hoekje op het web waar je gedachten, kennis en experimenten verzamelt. Niks hoeft meteen af te zijn, je blijft stukjes toevoegen, bijschaven en aan elkaar knopen. Zo groeit de site mee met wat je zelf leert.</p>
+      <h3>Wat een digital garden typeert</h3>
+      <ul>
+        <li><strong>Onderwerp boven datum:</strong> pagina's hangen aan thema's en onderlinge links in plaats van een publicatievolgorde, zodat bezoekers hun eigen route kiezen (zoals bij <a href="https://nobodyhere.com" target="_blank">nobodyhere.com</a>).</li>
+        <li><strong>Altijd in wording:</strong> je blijft nieuwe ideeën planten en oude plekjes bijwerken naarmate je meer weet.</li>
+        <li><strong>Ruimte voor onaf:</strong> ook half-uitgewerkte gedachten mogen online, waardoor je niet alleen het eindresultaat maar ook je leerproces laat zien.</li>
+        <li><strong>Speels en eigen:</strong> je eigen stijl en experimenten horen erbij, zie <a href="https://ribo.zone" target="_blank">ribo.zone</a> en <a href="https://2024.worldwidewebring.club" target="_blank">2024.worldwidewebring.club</a>.</li>
+        <li><strong>Alles door elkaar:</strong> tekst, beeld, links, code en proefjes mogen naast elkaar staan en met elkaar verbonden worden.</li>
+        <li><strong>Jouw eigen grond:</strong> op je eigen site houd je zelf de regie over inhoud, vorm en manier van publiceren.</li>
+      </ul>
+      <h3>COPE en PESOS</h3>
+      <ul>
+        <li><strong>COPE (Create Once, Publish Everywhere):</strong> maak iets één keer en zet het daarna op meerdere plekken, eventueel aangepast per platform (site, nieuwsbrief, socials).</li>
+        <li><strong>PESOS (Publish Elsewhere, Syndicate to your Own Site):</strong> plaats het eerst ergens anders en haal het daarna binnen op je eigen site, zodat alles uiteindelijk op één eigen plek samenkomt.</li>
+      </ul>
+    </article>
+
+    <article>
+      <h2>02-10-2026 Werkwijze & Techniek bij Werktijden.nl</h2>
+      <p class="speaker-badge">Werktijden.nl</p>
+      <blockquote>Een goed product maak je niet met code alleen, maar vooral met korte lijnen tussen klant, Support en Development.</blockquote>
+      <p>Dit hoorcollege draaide om de manier van werken bij Werktijden.nl en de tools die ze gebruiken. De rode draad: klant, Support en Development zitten dicht op elkaar, waardoor feedback snel landt en het product blijft verbeteren.</p>
+      <h3>Van feedback naar live gaan</h3>
+      <ul>
+        <li>Klanten geven aan waar ze tegenaan lopen en wat ze graag anders zien.</li>
+        <li>Die input wordt een issue, waarna het team de waarde en prioriteit inschat.</li>
+        <li>Samen bepalen ze welke issues opgepakt worden.</li>
+        <li>Developers bouwen features, verbeteren onderdelen en lossen bugs op.</li>
+        <li>Pas na het testen gaat een aanpassing live voor de gebruikers.</li>
+      </ul>
+      <h3>Techstack</h3>
+      <ul>
+        <li>Framework: Angular.</li>
+        <li>Styling: Tailwind CSS.</li>
+        <li>Editor: Visual Studio Code.</li>
+        <li>Project- en versiebeheer: GitLab.</li>
+      </ul>
+      <h3>Waarom Angular</h3>
+      <ul>
+        <li>Je bouwt interfaces uit losse, herbruikbare componenten zoals een menu of formulier, wat de code overzichtelijk houdt.</li>
+        <li>Het leunt op TypeScript, waarmee je vastlegt welk type data ergens in mag, zodat fouten eerder opvallen.</li>
+        <li>Standaard ondersteuning voor formulieren, navigeren tussen pagina's en data ophalen via een API.</li>
+      </ul>
+      <h3>Switch-case in plaats van veel if-else</h3>
+      <ul>
+        <li>Handig als je één variabele tegen meerdere vaste waarden wilt checken.</li>
+        <li><code>switch</code> kiest de te controleren waarde, <code>case</code> bevat de code per waarde.</li>
+        <li><code>return</code> geeft een resultaat terug en stopt de functie, <code>default</code> vangt alles op waarvoor geen case bestaat.</li>
+      </ul>
+    </article>
+
+    <article>
+      <h2>Toegankelijkheid in de praktijk</h2>
+      <p class="speaker-badge">Ischa Gast (Schiphol.nl)</p>
+      <p>Ischa Gast is frontend developer bij Schiphol.nl en nam ons mee in toegankelijkheid: waar je als developer op let om een site voor zoveel mogelijk mensen bruikbaar te maken.</p>
+      <h3>Begin bij goede HTML</h3>
+      <ul>
+        <li>Met de juiste elementen krijg je toegankelijkheid half cadeau: een <code>button</code> voor een actie, een link om ergens heen te gaan.</li>
+        <li>Zo snappen browsers en screenreaders beter wat een element eigenlijk doet.</li>
+      </ul>
+      <h3>Gebruik aria-label met beleid</h3>
+      <ul>
+        <li>Een <code>aria-label</code> vervangt de zichtbare tekst als naam voor de screenreader.</li>
+        <li>Vraag je dus eerst af of het nodig is: beschrijft de zichtbare tekst het al goed, dan is een extra label vaak overbodig.</li>
+      </ul>
+      <h3>Focus en bediening</h3>
+      <ul>
+        <li>Geef interactieve elementen een duidelijke focusstijl en behandel die net zo serieus als je hoverstijl.</li>
+        <li>Zorg dat alles ook met het toetsenbord te bedienen is.</li>
+        <li>Geef tabs een heldere naam, zodat duidelijk is welke inhoud erbij hoort.</li>
+      </ul>
+      <h3>Contrast en formulieren</h3>
+      <ul>
+        <li>Check of tekst genoeg contrast heeft met de achtergrond, ook de placeholders in invoervelden.</li>
+        <li>Houd een zichtbaar label aan, zodat duidelijk blijft wat iemand moet invullen als de placeholder wegvalt.</li>
+      </ul>
+      <h3>Wat zichtbaar is, moet ook hoorbaar zijn</h3>
+      <ul>
+        <li>Belangrijke info op het scherm moet ook bij een screenreader aankomen: de naam van een knop, de betekenis van een link, of iets open of dicht staat.</li>
+        <li>Geef tekst in een andere taal het juiste <code>lang</code>-attribuut, zodat de uitspraak klopt.</li>
+      </ul>
+      <h3>Content die bij hover verschijnt</h3>
+      <ul>
+        <li>Verschijnt er extra info bij muisover, zorg dan dat je er ook zonder muis bij kunt en dat het niet meteen wegvalt.</li>
+        <li>Het moet te sluiten zijn en bereikbaar via toetsenbordfocus.</li>
+      </ul>
+      <h3>Check per component</h3>
+      <ul>
+        <li>Beschrijf wat een gebruiker ziet en ervaart, en controleer wat de screenreader ervan maakt.</li>
+        <li>Test de bediening met muis én toetsenbord.</li>
+        <li>Loop kleuren, contrast en focusstijlen na en kijk of namen, teksten en status duidelijk zijn.</li>
+      </ul>
+    </article>
+
   </main>
 
   <dialog id="lightbox">
